@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
@@ -13,12 +15,13 @@
         <p>Programador Web</p>
     </header>
 
-    <nav>
+    <nav id="contenido">
         <ul>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#experincia">Experiencia</a></li>
-            <li><a href="#educacion">Educación</a></li>
+            <li class="about"><a href="about.html">Sobre mi</a></li>
+            <li class="pro"><a href="#proyectos">Proyectos</a></li>
+            <li class="hab"><a href="#habilidades">Habilidades</a></li>
+            <li class="exp"><a href="#experincia">Experiencia</a></li>
+            <li class="edu"><a href="#educacion">Educación</a></li>
         </ul>
     </nav>
     <main>
@@ -38,13 +41,28 @@
                 <a href="#" class="boton">Ver Proyecto</a>
             </article>
         </section>
-
         <section id="habilidades">
             <h2>Habilidades Técnicas</h2>
             <ul>
-                <li>Lenguajes de Programación: HTML, CSS, JavaScript</li>
-                <li>Frameworks: React, Node.js</li>
-                <li>Bases de Datos: SQL</li>
+                <li>
+                    <img src="https://velog.velcdn.com/images/yeonkr/post/07559fb6-ce89-485a-89a5-5c44ef58b041/image.jpeg"
+                        alt="Lenguajes">
+                    Lenguajes de Programación: HTML, CSS, JavaScript
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"
+                        alt="React">
+                    Frameworks: React
+                </li>
+                <li>
+                    <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png" alt="Node">
+                    Frameworks: Node.js
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png"
+                        alt="SQL">
+                    Bases de Datos: SQL
+                </li>
             </ul>
         </section>
 
@@ -52,7 +70,10 @@
             <h2>Experiencia Laboral</h2>
             <article class="experiencia">
                 <h3>Desarrollador Freelance</h3>
-                <p>He trabajado en proyectos propios con la metologia dada en soy henry</p>
+                <p>Soy un apasionado del desarrollo web con una sólida formación adquirida en Henry. He trabajado en
+                    proyectos propios y colaborativos, lo que me ha permitido dominar tecnologías como JavaScript, React
+                    y Node.js. Estoy buscando oportunidades para aplicar mis habilidades técnicas y mi pasión por el
+                    desarrollo web en un entorno profesional.</p>
             </article>
         </section>
 

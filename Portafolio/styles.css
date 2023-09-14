@@ -1,0 +1,198 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/990676/thumb/1.jpg?ip=x480);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #d9ffff;
+    color: black;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para secciones */
+section {
+    margin-bottom: 40px;
+}
+
+/* Estilos para artículos */
+.proyecto {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.proyecto h3 {
+    color: #6dcbfa;
+}
+
+/* Estilos para habilidades técnicas */
+#habilidades ul {
+    list-style-type: none;
+}
+
+#habilidades ul li {
+    margin-bottom: 10px;
+}
+
+#habilidades img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Estilos para experiencia laboral y educación */
+.experiencia,
+.educacion {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.experiencia h3,
+.educacion h3 {
+    color: #6dcbfa;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #d9ffff;
+    color: black;
+    padding: 1rem 0;
+    margin-top: 50px;
+}
+
+/* Estilos para el botón de WhatsApp */
+footer a {
+    display: inline-block;
+    background-color: #25d366;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Estilos para el enlace de WhatsApp en el pie de página */
+footer a:hover {
+    background-color: #128c7e;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4694d1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.boton:hover {
+    background-color: #4694d1
+}
+
+.boton:active {
+    background-color: #4694d1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4694d1;
+}
+
+nav a:hover {
+    background-color: #128c7e;
+}
+
+.about a {
+    background-color: #6dcbfa;
+}
+
+.about a:hover {
+    background-color: #128c7e;
+}
+
+.pro a {
+    background-color: #6dcbfa;
+}
+
+.pro a :hover {
+    background-color: #128c7e;
+}
+
+.hab a {
+    background-color: #6dcbfa;
+}
+
+.hab a :hover {
+    background-color: #128c7e;
+}
+
+.exp a {
+    background-color: #6dcbfa;
+}
+
+.exp a :hover {
+    background-color: #128c7e;
+}
+
+.edu a {
+    background-color: #6dcbfa;
+}
+
+.edu a :hover {
+    background-color: #128c7e;
+}
